@@ -1,3 +1,5 @@
+//  Created by Meghdoot Dhameliya on 2/13/15.
+
 # MDStrengthMeter
 1) #import "MDStrengthView.h"
 
