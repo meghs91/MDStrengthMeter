@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20B20FBB1A8DDF740075C042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B20FBA1A8DDF740075C042 /* main.m */; };
+		20B20FBE1A8DDF740075C042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B20FBD1A8DDF740075C042 /* AppDelegate.m */; };
+		20B20FC11A8DDF740075C042 /* MDStrengthMeter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20B20FBF1A8DDF740075C042 /* MDStrengthMeter.xcdatamodeld */; };
+		20B20FC41A8DDF740075C042 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B20FC31A8DDF740075C042 /* ViewController.m */; };
+		20B20FC71A8DDF740075C042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B20FC51A8DDF740075C042 /* Main.storyboard */; };
+		20B20FC91A8DDF740075C042 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B20FC81A8DDF740075C042 /* Images.xcassets */; };
+		20B20FCC1A8DDF740075C042 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B20FCA1A8DDF740075C042 /* LaunchScreen.xib */; };
+		20B20FD81A8DDF740075C042 /* MDStrengthMeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B20FD71A8DDF740075C042 /* MDStrengthMeterTests.m */; };
+		20B20FEF1A8DFDBD0075C042 /* MDStrengthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B20FEE1A8DFDBD0075C042 /* MDStrengthView.m */; };
+		20B20FF11A8DFDC60075C042 /* MDStrengthMeter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B20FF01A8DFDC60075C042 /* MDStrengthMeter.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20B20FD21A8DDF740075C042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20B20FAD1A8DDF740075C042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20B20FB41A8DDF740075C042;
+			remoteInfo = MDStrengthMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20B20FB51A8DDF740075C042 /* MDStrengthMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDStrengthMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B20FB91A8DDF740075C042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20B20FBA1A8DDF740075C042 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20B20FBC1A8DDF740075C042 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20B20FBD1A8DDF740075C042 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20B20FC01A8DDF740075C042 /* MDStrengthMeter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MDStrengthMeter.xcdatamodel; sourceTree = "<group>"; };
+		20B20FC21A8DDF740075C042 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20B20FC31A8DDF740075C042 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20B20FC61A8DDF740075C042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20B20FC81A8DDF740075C042 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20B20FCB1A8DDF740075C042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		20B20FD11A8DDF740075C042 /* MDStrengthMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDStrengthMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B20FD61A8DDF740075C042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20B20FD71A8DDF740075C042 /* MDStrengthMeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDStrengthMeterTests.m; sourceTree = "<group>"; };
+		20B20FED1A8DFDBD0075C042 /* MDStrengthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDStrengthView.h; sourceTree = "<group>"; };
+		20B20FEE1A8DFDBD0075C042 /* MDStrengthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDStrengthView.m; sourceTree = "<group>"; };
+		20B20FF01A8DFDC60075C042 /* MDStrengthMeter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDStrengthMeter.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20B20FB21A8DDF740075C042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B20FCE1A8DDF740075C042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B20FAC1A8DDF740075C042 = {
+			isa = PBXGroup;
+			children = (
+				20B20FB71A8DDF740075C042 /* MDStrengthMeter */,
+				20B20FD41A8DDF740075C042 /* MDStrengthMeterTests */,
+				20B20FB61A8DDF740075C042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20B20FB61A8DDF740075C042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20B20FB51A8DDF740075C042 /* MDStrengthMeter.app */,
+				20B20FD11A8DDF740075C042 /* MDStrengthMeterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B20FB71A8DDF740075C042 /* MDStrengthMeter */ = {
+			isa = PBXGroup;
+			children = (
+				20B20FEC1A8DFD040075C042 /* MDStrengthMeter */,
+				20B20FBC1A8DDF740075C042 /* AppDelegate.h */,
+				20B20FBD1A8DDF740075C042 /* AppDelegate.m */,
+				20B20FC21A8DDF740075C042 /* ViewController.h */,
+				20B20FC31A8DDF740075C042 /* ViewController.m */,
+				20B20FC51A8DDF740075C042 /* Main.storyboard */,
+				20B20FC81A8DDF740075C042 /* Images.xcassets */,
+				20B20FCA1A8DDF740075C042 /* LaunchScreen.xib */,
+				20B20FBF1A8DDF740075C042 /* MDStrengthMeter.xcdatamodeld */,
+				20B20FB81A8DDF740075C042 /* Supporting Files */,
+			);
+			path = MDStrengthMeter;
+			sourceTree = "<group>";
+		};
+		20B20FB81A8DDF740075C042 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20B20FB91A8DDF740075C042 /* Info.plist */,
+				20B20FBA1A8DDF740075C042 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20B20FD41A8DDF740075C042 /* MDStrengthMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				20B20FD71A8DDF740075C042 /* MDStrengthMeterTests.m */,
+				20B20FD51A8DDF740075C042 /* Supporting Files */,
+			);
+			path = MDStrengthMeterTests;
+			sourceTree = "<group>";
+		};
+		20B20FD51A8DDF740075C042 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20B20FD61A8DDF740075C042 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20B20FEC1A8DFD040075C042 /* MDStrengthMeter */ = {
+			isa = PBXGroup;
+			children = (
+				20B20FF01A8DFDC60075C042 /* MDStrengthMeter.xib */,
+				20B20FED1A8DFDBD0075C042 /* MDStrengthView.h */,
+				20B20FEE1A8DFDBD0075C042 /* MDStrengthView.m */,
+			);
+			path = MDStrengthMeter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20B20FB41A8DDF740075C042 /* MDStrengthMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B20FDB1A8DDF740075C042 /* Build configuration list for PBXNativeTarget "MDStrengthMeter" */;
+			buildPhases = (
+				20B20FB11A8DDF740075C042 /* Sources */,
+				20B20FB21A8DDF740075C042 /* Frameworks */,
+				20B20FB31A8DDF740075C042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDStrengthMeter;
+			productName = MDStrengthMeter;
+			productReference = 20B20FB51A8DDF740075C042 /* MDStrengthMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20B20FD01A8DDF740075C042 /* MDStrengthMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B20FDE1A8DDF740075C042 /* Build configuration list for PBXNativeTarget "MDStrengthMeterTests" */;
+			buildPhases = (
+				20B20FCD1A8DDF740075C042 /* Sources */,
+				20B20FCE1A8DDF740075C042 /* Frameworks */,
+				20B20FCF1A8DDF740075C042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20B20FD31A8DDF740075C042 /* PBXTargetDependency */,
+			);
+			name = MDStrengthMeterTests;
+			productName = MDStrengthMeterTests;
+			productReference = 20B20FD11A8DDF740075C042 /* MDStrengthMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20B20FAD1A8DDF740075C042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = openxcell;
+				TargetAttributes = {
+					20B20FB41A8DDF740075C042 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					20B20FD01A8DDF740075C042 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 20B20FB41A8DDF740075C042;
+					};
+				};
+			};
+			buildConfigurationList = 20B20FB01A8DDF740075C042 /* Build configuration list for PBXProject "MDStrengthMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20B20FAC1A8DDF740075C042;
+			productRefGroup = 20B20FB61A8DDF740075C042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20B20FB41A8DDF740075C042 /* MDStrengthMeter */,
+				20B20FD01A8DDF740075C042 /* MDStrengthMeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20B20FB31A8DDF740075C042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B20FC71A8DDF740075C042 /* Main.storyboard in Resources */,
+				20B20FF11A8DFDC60075C042 /* MDStrengthMeter.xib in Resources */,
+				20B20FCC1A8DDF740075C042 /* LaunchScreen.xib in Resources */,
+				20B20FC91A8DDF740075C042 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B20FCF1A8DDF740075C042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20B20FB11A8DDF740075C042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B20FBE1A8DDF740075C042 /* AppDelegate.m in Sources */,
+				20B20FBB1A8DDF740075C042 /* main.m in Sources */,
+				20B20FC41A8DDF740075C042 /* ViewController.m in Sources */,
+				20B20FEF1A8DFDBD0075C042 /* MDStrengthView.m in Sources */,
+				20B20FC11A8DDF740075C042 /* MDStrengthMeter.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B20FCD1A8DDF740075C042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B20FD81A8DDF740075C042 /* MDStrengthMeterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20B20FD31A8DDF740075C042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20B20FB41A8DDF740075C042 /* MDStrengthMeter */;
+			targetProxy = 20B20FD21A8DDF740075C042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20B20FC51A8DDF740075C042 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20B20FC61A8DDF740075C042 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20B20FCA1A8DDF740075C042 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20B20FCB1A8DDF740075C042 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20B20FD91A8DDF740075C042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20B20FDA1A8DDF740075C042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20B20FDC1A8DDF740075C042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MDStrengthMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20B20FDD1A8DDF740075C042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MDStrengthMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20B20FDF1A8DDF740075C042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MDStrengthMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDStrengthMeter.app/MDStrengthMeter";
+			};
+			name = Debug;
+		};
+		20B20FE01A8DDF740075C042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MDStrengthMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDStrengthMeter.app/MDStrengthMeter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20B20FB01A8DDF740075C042 /* Build configuration list for PBXProject "MDStrengthMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B20FD91A8DDF740075C042 /* Debug */,
+				20B20FDA1A8DDF740075C042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B20FDB1A8DDF740075C042 /* Build configuration list for PBXNativeTarget "MDStrengthMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B20FDC1A8DDF740075C042 /* Debug */,
+				20B20FDD1A8DDF740075C042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B20FDE1A8DDF740075C042 /* Build configuration list for PBXNativeTarget "MDStrengthMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B20FDF1A8DDF740075C042 /* Debug */,
+				20B20FE01A8DDF740075C042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20B20FBF1A8DDF740075C042 /* MDStrengthMeter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20B20FC01A8DDF740075C042 /* MDStrengthMeter.xcdatamodel */,
+			);
+			currentVersion = 20B20FC01A8DDF740075C042 /* MDStrengthMeter.xcdatamodel */;
+			path = MDStrengthMeter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 20B20FAD1A8DDF740075C042 /* Project object */;
+}
